@@ -79,6 +79,26 @@ header {
     color: #ff9800; /* Oranye Ceria */
 }
 
+/* Logo text animation (wave / bounce per-letter) */
+.logo-text .char {
+    display: inline-block;
+    transform-origin: center;
+    animation: logoWave 1.2s ease-in-out infinite;
+}
+
+@keyframes logoWave {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(-6px) scale(1.02); }
+    40% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+/* Slightly reduce animation on small screens */
+@media (max-width: 480px) {
+    .logo-text { font-size: 22px; }
+    .logo-text .char { animation-duration: 1s; }
+}
+
 nav ul {
     list-style: none;
     display: flex;

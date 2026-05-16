@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bimbel ZNZ - Sukses Belajar Bersama Kami</title>
-    <!-- Menghubungkan ke file CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Mengambil Font dari Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Berkshire+Swash&family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <!-- NAVBAR -->
-    <header>
-        <div class="logo">
-            <!-- Tambahkan tag img ini -->
-            <img src="LOGO BIMBEL_.png" alt="Logo Bimbel ZNZ" class="logo-img">
-            <div class="logo-text">Bimbel<span>ZNZ</span></div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#program">Program Kelas</a></li>
-                <li><a href="#testimoni">Testimoni</a></li>
-                <li><a href="#tentang">Tentang ZNZ</a></li>
-            </ul>
-        </nav>
-        <a href="#program" class="btn btn-daftar">Mulai Belajar</a>
-    </header>
-
     <!-- HERO SECTION (Sambutan) -->
     <section id="beranda" class="hero">
         <div class="hero-text">
@@ -177,10 +146,3 @@
             <p>&copy; 2026 Bimbel ZNZ. Dibuat untuk Tugas Desain Web.</p>
         </div>
     </footer>
-
-    </footer>
-
-        <!-- Script untuk animasi tulisan logo -->
-        <script src="script.js"></script>
-    </body>
-</html>
